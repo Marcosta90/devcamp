@@ -1,0 +1,57 @@
+.resize {
+  width: 900px;
+  height: 600px;
+}
+
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  max-height: 2cm;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.links-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.links-wrapper .nav-link {
+  margin-right: 10px;
+}
+
+.explore {
+  padding: 5px 10px;
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+
+.create-login-signup {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  margin-right: 10px;
+}
+
+.create-login-signup .grey-btn {
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 1200px) {
+  .create-login-signup .grey-btn {
+    font-size: 14px;
+  }
+}

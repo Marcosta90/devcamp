@@ -1,0 +1,61 @@
+	/*Apariencia y diferentes tipos de botones*/
+    /* grey buttons */
+    /*Define estilo de botones grises,tienen fondo gris oscuro,sin bordes, con esquinas 
+    redondeadas -border-radius 3px texto color claro, un tamaño de fuente 1.15em y un peso
+    de fuente de 700, Elementos de boton se alinean verticalmente (displey:flex;align-items: center 
+    y tiene espacio de 10px entre ellos*/
+    .grey-btn {
+        background-color: #36383f;
+        border: none;
+        border-radius: 3px;
+        color: #f7f5e6;
+        font-size: 1.15em;
+        font-weight: 700;
+        padding: 12px 18px;
+        display: flex;
+        align-items: center;
+        gap: 9px;
+    }
+    /*Esta regla se aplica a los elementos I "iconos" dentro de botones grises, estos iconos 
+    tienen un color verde y un tamaño fuente 1.2 */
+    .grey-btn i {
+        color: #4bce79;
+        font-size: 1.2em;
+    }
+    /*estas dos clases siguen un formato similar pero con diferentes colores y estilos
+    los botones verdes tienen un fondo verde y los botones negros tienen un fondo negro,
+    ambos bordes redondeados tienen un tamaño de fuente mas grande y cambian de color 
+    cuando el cursos se coloca sobre ellos*/
+    .grey-btn:hover {
+        background-color: #5a5f73;
+        cursor: pointer;
+    }
+    /* green buttons */
+    .green-btn {
+        background-color: #47cf73;
+        border: none;
+        border-radius: 6px;
+        color: black;
+        font-size: 2em;
+        font-weight: 600;
+        padding: 13px 20px;
+    }
+    .green-btn:hover {
+        background-color: #248c46;
+        color: white;
+        cursor: pointer;
+    }
+    /* black buttons */
+    .black-btn {
+        background-color: #111111;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 2em;
+        font-weight: 500;
+        padding: 13px 22px;
+    }
+    .black-btn:hover {
+        background-color: #36383f;
+        cursor: pointer;
+    }
